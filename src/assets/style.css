@@ -1,0 +1,107 @@
+body {
+  background-color: #f0f5f9; /* Light blue-grey background */
+  margin: 0;
+}
+
+.create_container {
+  border-radius: 5px;
+  background-color: rgba(175, 222, 253, 0.5); /* Transparent blue */
+  margin: 5px;
+  padding: 10px;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.dcc_compon {
+  margin: 0;
+  padding: 5px;
+  width: calc(100% - 40px);
+}
+
+.fix_label {
+  font-size: 20px;
+  margin: 0;
+  padding: 10px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  width: calc(100% - 40px);
+}
+
+.flex-display {
+  display: flex;
+}
+
+.container-display {
+  display: flex;
+}
+
+#header {
+  align-items: center;
+}
+
+#title {
+  text-align: center;
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.Select-control,
+.Select-menu-outer,
+.Select-multi-value-wrapper,
+.select-up,
+.is-open .Select-control {
+  background-color: #3498db; /* Sky blue */
+  color: white;
+}
+
+.Select-control {
+  border: 0.5px solid #3498db; /* Sky blue border */
+}
+
+.has-value.Select--single > .Select-control .Select-value .Select-value-label,
+.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
+  color: white;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f5f9;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3498db; /* Sky blue scrollbar handle */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2980b9; /* Dark blue scrollbar handle on hover */
+}
+
+.rc-slider-track {
+  background-color: #3498db; /* Sky blue */
+}
+
+.rc-slider-dot-active {
+  border-color: #3498db; /* Sky blue slider dot active */
+  border-width: 2px;
+}
+
+.rc-slider-handle {
+  background-color: #3498db; /* Sky blue slider handle */
+  border-color: #3498db;
+}
+
+.rc-slider-handle:hover {
+  border-color: #3498db; /* Sky blue slider handle on hover */
+}
+
+.rc-slider-handle:active {
+  border-color: #3498db; /* Sky blue slider handle when active */
+}
