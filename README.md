@@ -1,15 +1,3 @@
-
-## Steps to run the code-
-* Open the terminal
-* Change the working directory to the project folder location 
-`cd path to folder`
-* Install the required dependencies by running
-`pip install -r requirements.txt`
-* To view the app, run the following command in your terminal
-`python index.py`
-* The app will open in your default browser
-
-
 # Visualization-of-Global-Terrorism-Databases
 
 # Acknowledgements
